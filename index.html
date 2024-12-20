@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЗвероПолис</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body> 
+    <header id="header">
+        <div class="popup-bg">
+            <div class="popup">
+                <img class="close-popup" src="images/close.png" alt="">
+                <form action="">    ФИО
+                    <input type="text"> Номер Телефона
+                    <input type="tel">
+                    <input value="Отправить заявку" type="submit">
+                </form>
+            </div>
+       </div>
+        <div class="cap">
+            <div class="button_map" href="#map" onclick="slowScroll('#map')" > <img class="img_map" src="images/map.png" /> </div>
+            <dig class="button_uslugi" href="#uslugi_text" onclick="slowScroll('#uslugi_text')">УСЛУГИ</dig>
+            <div class="button_otzuv" href="#otzuv" onclick="slowScroll('#otzuv')">ОТЗЫВЫ</div>
+            <div class="name">ЗвероПолис</div>
+            <div class="button_kontakt" href="#footer" onclick="slowScroll('#footer')" >КОНТАКТЫ</div>
+            <div href="#" class="open-popup" >Записаться</div>
+        </div>
+    </header>
+    <main>
+        <div class="frame_1">
+            <img class="laps1" src="images/laps1.png" />
+            <div class="info">
+                <img  class="img_cat" src="images/cat.png" />
+                <div class="info_text">Мы-круглосуточная ветеринарная клиника</div>
+                <div class="knop_1">Выезжаем на дом</div>
+                <div class="knop_2">Стоимость вызова от 800Р</div>
+                <div class="knop_3">Большую часть услуг оказываем на дому</div>
+            </div>
+        </div>
+        <div class="frame_2">
+            <img class="laps2" src="images/laps2.png" />
+            <div class="pometka">Пометка для хозяев</div>
+            <div class="pometka_info">
+                <img class="img_coala" src="images/coala.png" />
+                <div class="pometka_text">Мы знаем, что посещение клиники может быть стрессовым для вашего питомца и не всегда удобным для вас.
+                    <br> 
+                    Поэтому мы предлагаем уникальную услугу – прием на дому.
+                    <br> 
+                    Наши ветеринары готовы приехать к вам и оказать необходимую помощь в комфорте вашего дома.
+                    <p>
+                    Это не только снижает стресс для животного, но и экономит ваше время.</p></div>
+            </div>
+        </div>
+        <div class="frame_3">
+            <img class="laps3" src="images/laps3.png" />
+            <div class="uslugi" id="uslugi">Услуги</div>
+            <div class="uslugi_info">
+                <div class="uslugi_text" id="uslugi_text">
+                    <ul>Диагностические операции</ul>
+                    <ul>Чипирование</ul>
+                    <ul>Вакцинация</ul>
+                    <ul>Кастрация/стерилизация</ul>
+                    <ul>КТ</ul>
+                    <ul>МРТ</ul>
+                    <ul>УЗИ</ul>
+                    <ul>Консультация с врачом</ul>
+                </div>
+                <div class="price"> 
+                    <ul>от 12000 руб</ul>
+                    <ul>1800 руб</ul>
+                    <ul>1200 руб</ul>
+                    <ul>1000 руб</ul>
+                    <ul>от 1800 руб</ul>
+                    <ul>от 2000 руб</ul>
+                    <ul>от 1000 руб</ul>
+                    <ul>800 руб</ul>
+                </div>
+            </div>
+        </div>
+        <div class="frame_4">
+            <img class="laps4" src="images/laps4.png" />
+            <img class="img_diploma" src="images/diploma.png" />
+            <div class="diploma">
+                <div class="zag">Наша команда </div>
+                <div class="komanda">Наша команда опытных ветеринаров и медицинских сестер использует
+                     самые современные методы диагностики и лечения, чтобы обеспечить вашему питомцу лучшую возможную помощь.</div>
+            </div>
+        </div>
+        <div class="frame_5">
+            <img class="laps6" src="images/laps6.png" />
+            <div class="top_1">Всегда рядом<p>Ветеринарный врач приедет к вам домой, если произошла проблема с питомцем. 
+                Это особенно удобно для больных, пожилых, или тех людей, у которых нет возможности доставить животное транспортом.</p></div>
+            <div class="top">Почему именно мы</div>
+            <div class="top_2">Минимальный стресс<p>Если врач-ветеринар выезжает на 
+                дом ― животное чувствует себя спокойнее при любых манипуляциях, так как находится в знакомой обстановке. Он не испытывает стресса.</p></div>
+            <div class="top_3">Нет очередей<p>Частая проблема ветеринарных клиник ― большое количество пациентов, а значит, и очередей. Вы можете прождать 
+                в коридоре часы, потерять драгоценное время, которое так необходимо для помощи питомцу. Наш выездной ветеринар может приехать.</p></div>
+            <div class="top_4">Выгода<p>Услуги выездного ветеринара более выгодны несмотря на то, что он приезжает на дом.
+                 Клиенты не затрачивают средства на транспортные расходы и экономят время на поездках в ветеринарную клинику.</p></div>
+            <div class="top_5">Максимальное доверие<p>Клиентам проще рассказать о проблемах и 
+                установить доверие с ветеринаром, приезжающим на дом. Кроме того, взаимодействие между врачом, клиентом и животным улучшается.</p></div>
+            <div class="top_6">Запись онлайн<p>Система быстрой записи через сайт, поможет вам даже в 
+                самых экстернных ситуациях. Наши сотрудники всегда на связи.</p></div>
+        </div>
+        <div class="frame_6">
+            <div class="otzuv" id="otzuv">Отзывы</div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper" id="swiper-wrapper">
+                  <div class="swiper-slide"><img src="images/Group1.png"/></div>
+                  <div class="swiper-slide"><img src="images/Group2.png"/></div>
+                  <div class="swiper-slide"><img src="images/Group3.png"/></div>
+                  <div class="swiper-slide"><img src="images/Group4.png"/></div>
+                  <div class="swiper-slide"><img src="images/Group5.png"/></div>
+                  <div class="swiper-slide"><img src="images/Group6.png"/></div>
+                  <div class="swiper-slide"><img src="images/Group7.png"/></div>
+                  <div class="swiper-slide"><img src="images/Group8.png"/></div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+        </div>
+        <div class="frame_7">
+            <img class="laps5" src="images/laps5.png" />
+            <div class="us">Наши партнёры</div>
+            <img class="whiskas" src="images/whiskas.png" />
+            <img class="sheba" src="images/sheba.png" />
+            <img class="kitekat" src="images/kitekat.png" />
+        </div>
+        <div class="frame_8" >
+            <div class="karta">Мы на карте</div>
+            <div class="map" id="map">
+                <iframe class="mapka" src="https://yandex.ru/map-widget/v1/?um=constructor%3A0f6be918ea147db3ca3c56314cfae0d108dd436e368ff8fe5d21af0be7a208eb&amp;source=constructor" 
+                ></iframe>
+            </div>
+            <img class="lain" src="images/lain.png " />
+        </div>
+    </main>
+
+    <footer id="footer">
+        <div class="end">
+            <img class="lapki" src="images/lapki.png" />
+            <div class="addres">Адрес:</div>
+            <div class="ad">Москва, Генерала Дорохова, 40</div>
+            <div class="kontakt">Контакты:</div>
+            <div class="kon">+79993726634 zveropolis@gmail.com</div>
+            <div class="button_1" href="#header" onclick="slowScroll('#header')" >ГЛАВНАЯ</div>
+            <div class="button_2" href="#uslugi" onclick="slowScroll('#uslugi')">УСЛУГИ</div>
+            <div class="button_3" href="#otzuv" onclick="slowScroll('#otzuv')">ОТЗЫВЫ</div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+        dynamicBullets: true,
+      },
+    });
+  </script>
+  
+
+
+  <script>
+    type="text/javascript"
+    function slowScroll(id) { 
+        var offset = 0;
+        $('html, body').animate({ 
+                scrollTop: $(id).offset().top - offset 
+        }, 1000);
+        return false; 
+    } 
+  </script>
+
+
+    <script>
+        $('.open-popup').click(function(e) {
+            e.preventDefault();
+            $('.popup-bg').fadeIn(700);
+            $('html').addClass('no-scroll');
+        });
+        
+        $('.close-popup').click(function() {
+            $('.popup-bg').fadeOut(700);
+            $('html').removeClass('no-scroll');
+        });
+    </script>
+
+
+</body>
+
+
+
+
+
+</html>
